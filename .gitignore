@@ -1,0 +1,29 @@
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+.scala_dependencies
+*.python-version
+
+#eclipse
+.project*
+.classpath*
+.settings*
+
+#intellij
+.idea*
+atlassian-ide-plugin.xml
+
+# Mac file
+.DS_Store
+
+#Email template engine
+**/templates/src/*
+**/templates/tmp/*
